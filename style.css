@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #ff8cf5;
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #ff8ae6;
     margin-bottom: 15px;
 }
 
@@ -62,7 +62,7 @@ p {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #ff8eec;
     color: white;
     position: fixed;
     bottom: 0;
