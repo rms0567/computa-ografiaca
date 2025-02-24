@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB e CMYK - Conceitos de Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conceitos de RGB e CMYK</h1>
+        <p>Aprenda sobre os modelos de cores RGB e CMYK, e entenda suas diferenças e aplicações!</p>
+    </header>
+
+    <section id="rgb">
+        <h2>Modelo RGB</h2>
+        <p>O modelo RGB (Red, Green, Blue) é utilizado em dispositivos como monitores, TVs e câmeras digitais. Neste modelo, as cores são formadas pela combinação de três cores primárias: <strong>Vermelho (Red)</strong>, <strong>Verde (Green)</strong> e <strong>Azul (Blue)</strong>. Esses três componentes podem variar de 0 a 255, gerando milhões de combinações possíveis de cores.</p>
+        
+        <div class="imagem">
+            <img src="rgb-diagram.jpg" alt="Diagrama do Modelo RGB" />
+            <p>Diagrama ilustrativo do modelo RGB.</p>
+        </div>
+
+        <p>Os pixels de uma tela em RGB são formados por pequenas células de luz que emitem essas cores, e sua intensidade pode ser ajustada para criar novas cores. Quando as três cores estão no máximo (255, 255, 255), o resultado é o branco, e quando todas são zero (0, 0, 0), temos o preto.</p>
+
+        <div class="exemplo" style="background-color: rgb(255, 0, 0);">
+            <p>Cores: RGB(255, 0, 0) - Vermelho</p>
+        </div>
+        <div class="exemplo" style="background-color: rgb(0, 255, 0);">
+            <p>Cores: RGB(0, 255, 0) - Verde</p>
+        </div>
+        <div class="exemplo" style="background-color: rgb(0, 0, 255);">
+            <p>Cores: RGB(0, 0, 255) - Azul</p>
+        </div>
+    </section>
+
+    <section id="pixel">
+        <h2>Funcionamento do Pixel</h2>
+        <p>O pixel é a unidade básica de uma tela digital. Cada pixel pode emitir luz nas cores RGB, variando em intensidade. Em uma tela, milhões de pixels formam imagens, e cada pixel é composto por três subpixels: um para o vermelho, outro para o verde e outro para o azul.</p>
+
+        <div class="imagem">
+            <img src="pixel-diagram.jpg" alt="Diagrama do Pixel" />
+            <p>Diagrama mostrando como um pixel é composto por subpixels RGB.</p>
+        </div>
+    </section>
+
+    <section id="cmyk">
+        <h2>Modelo CMYK</h2>
+        <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é amplamente utilizado em impressoras. A diferença fundamental em relação ao RGB é que o modelo CMYK é baseado na subtração de luz. Ou seja, ele trabalha com cores “subtraídas” de um fundo branco, ao contrário do RGB, que funciona adicionando luz.</p>
+
+        <div class="imagem">
+            <img src="cmyk-diagram.jpg" alt="Diagrama do Modelo CMYK" />
+            <p>Diagrama ilustrativo do modelo CMYK.</p>
+        </div>
+
+        <p>Ao contrário do RGB, o modelo CMYK utiliza quatro cores para representar uma ampla gama de outras cores: <strong>Ciano (Cyan)</strong>, <strong>Magenta</strong>, <strong>Amarelo (Yellow)</strong> e <strong>Preto (Black)</strong>. A combinação dessas cores pode criar imagens em impressões.</p>
+
+        <div class="exemplo" style="background-color: cyan;">
+            <p>Cores: Cyan</p>
+        </div>
+        <div class="exemplo" style="background-color: magenta;">
+            <p>Cores: Magenta</p>
+        </div>
+        <div class="exemplo" style="background-color: yellow;">
+            <p>Cores: Yellow</p>
+        </div>
+        <div class="exemplo" style="background-color: black;">
+            <p>Cores: Black</p>
+        </div>
+    </section>
+
+    <section id="comparacao">
+        <h2>Comparação entre RGB e CMYK</h2>
+        <p>Enquanto o RGB é ideal para telas e dispositivos que emitem luz, o CMYK é mais utilizado em impressões. O RGB usa a adição de cores para criar outras cores, enquanto o CMYK usa a subtração. Aqui está uma comparação visual:</p>
+        
+        <div class="imagem">
+            <img src="comparacao-rgb-cmyk.jpg" alt="Comparação entre RGB e CMYK" />
+            <p>Comparação entre as paletas de cores RGB e CMYK.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projeto educacional para estudo dos modelos RGB e CMYK.</p>
+    </footer>
+</body>
+</html>
